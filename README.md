@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+There are two major pieces we need to install in order to set you up for success as a professional data scientist! In this lesson, we will be installing Git and Anaconda for MacOS.
 
 ## Objectives
 
@@ -11,52 +11,66 @@ You will be able to:
 * Install Git
 * Install Anaconda
 
-Let’s start by getting Git and Anaconda installed.
-
 Please note - the exact names and versions will change over time.
 
 ## Installing Git
 
-If you are comfortable with the command line and have installed [homebrew](https://brew.sh/), you should install Git by running the command `brew install git` in a terminal window. If you have no idea what the last sentence meant, please disregard and follow the below steps.
+If you are comfortable with the command line and have installed <a href="https://brew.sh/" target="_blank"> homebrew</a>, you should install Git by running the command `brew install git` in a terminal window. If you have no idea what that last sentence meant, please disregard and follow the below steps.
 
 ### Overview:
 
-1. Download the install package from [here](https://git-scm.com/download/mac). 
+1. Navigate to Git's download page for MacOS <a href="https://git-scm.com/download/mac" target="_blank">here</a>. Since you are not using homebrew, you should click on the latest version number under the Binary Installer option
+    - This should take you to another page, where the download of the installer dmg file should begin automatically after a few seconds
 2. Double click on the downloaded dmg file to open a small Finder window
-3. Double click on the .pkg file to run it
-    - When you try to do that you might get a security warning pop up. If that happens: 
-        - Click on the apple at the top left of the screen
+3. Double click on the .pkg file to run it, and click "Open" when the pop-up security warning asks if you are sure you want to open it
+    - If you get a security warning that simply says the file cannot be opened because it is from an unidentified developer, then:
+        - Click on the Apple symbol at the top left of your screen
         - Select “System Preferences” from the drop-down menu
         - Select “Security and Privacy”
         - Select the “General” tag
-        - Click on the lock to make changes at the bottom of the window (you will need to enter your password when prompted)
-        - Below the “Allow apps downloaded from” option, you should see a message stating that an app was blocked from opening (if you don’t see this message, double click on the .pkg file again and then look back at the Security & Privacy screen and it should pop up). Click the “open anyway” button.
-4. Click on the “Open” button when the pop-up message asks "Are you sure you want to open it?" in order to open the installer window
-5. Click "Continue" on each screen, then "Install"
-    - You will need to enter your password when prompted
-6. When the installation is complete, click the "Close" button
+        - Below the “Allow apps downloaded from” option, click the "Open Anyway" option. You may need to click the lock to make changes, which will prompt you to enter your password
+4. When the Installer opens, click "Continue" on each screen, then "Install"
+    - You may need to enter your password when prompted
+5. When the installation is complete, click the "Close" button
+    - If the installation window asks if you want to move the installer .pkg file to trash, you can click “Move to Trash”
 
 #### Git Installation Steps, step-by-step:
 
-Step 2 - Finder window that appears when you double click the downloaded dmg file
+Step 1: Git’s download page for MacOS - choose the Binary Installer option (click the version number)
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-10.png' width="750">
+<img src="images/mac-git-download-latestversionboxed.png" width="750">
 
-Step 3 - Security warning that may appear
+Download the Git .dmg file from the new site (download should begin automatically after a few seconds)
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-11.png' width="550">
+<img src="images/mac-git-download-sourceforgedownloadpage.png" width="750">
 
-Step 4 - Yes, you really want to open the app
+Step 2: Open the downloaded .dmg file
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-12.png' width="550">
+<img src="images/mac-git-openeddmg.png" width="650">
 
-Step 5 - Installer screen
+Step 3: Open the downloaded .pkg file inside the .dmg file
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-13.png' width="650">
+<img src="images/mac-git-openpkg.png" width="450">
 
-Step 6 - Click "Close" when the Installation is completed successfully
+You may need to work around a security warning. If you see this:
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-14.png' width="650">
+<img src="images/mac-git-pkgcannotbeopened.png" width="450">
+
+Go to your Security & Privacy menu and click "Open Anyway"
+
+<img src="images/mac-git-openpkganyway.png" width="650">
+
+Step 4: Move through the Installer, clicking "Continue" on each screen to stick with the default options, then click "Install"
+
+<img src="images/mac-git-installation-intro.png" width="650">
+
+Step 5: Installation Complete! Click “Close”
+
+<img src="images/mac-git-installation-successful.png" width="650">
+
+If the installation window asks if you want to move the installer .pkg file to trash, you can click “Move to Trash”
+
+<img src="images/mac-git-moveinstallertotrash.png" width="450">
 
 ## Installing Anaconda 
 
@@ -64,82 +78,58 @@ The easiest way to get set up with Python and Jupyter Notebook so you can start 
 
 ### Overview:
 
-1. Download the latest version of Anaconda [here](https://www.anaconda.com/download/#macos) - use Python 3.x (ignore Python 2.7)
+1. Download the latest version of Anaconda <a href="https://www.anaconda.com/products/individual" target="_blank">here</a>
 2. Open the pkg file once it has downloaded to open the Anaconda installer
-
-    - Option 1: When the pkg file is finished downloading, click to the right of the name of the file at the bottom of your browser, and select "Open"
-    - Option 2: Navigate to your "Downloads" folder and double click on the Anaconda pkg file to open it
-
 3. Click "Continue" to run the package to determine if the software can be installed
 4. When the Installation window opens, click "Continue"
-5. Look at the Read Me, then click "Continue"
+5. Read the Read Me, then click "Continue"
 6. Accept the license by clicking "Continue", then click "Agree" in the pop-up window
-7. Accept the default destination
-8. Click "Install" to install the software
-    - You will need to enter your password when prompted
-9. Wait while Anaconda is installed on your computer
-10. You can skip the option to install Microsoft VSCode by clicking "Continue"
-11. Click "Close" when the installation was completed successfully
-12. If you're asked whether you'd like to move the Installer to Trash, click "Move to Trash"
+7. Click "Install" to install the software
+    - You may need to enter your password when prompted
+    - You can ignore any supplementary materials advertised, such as PyCharm
+8. Click "Close" when the installation was completed successfully
+    - If the installation window asks if you want to move the installer .pkg file to trash, you can click “Move to Trash”
 
 #### Anaconda Installation Steps, step-by-step:
 
-Step 1 - Download Anaconda for Python 3.x
+Step 1: Download Anaconda, choosing the 64-bit GUI option
 
-![screen-26](http://curriculum-content.s3.amazonaws.com/data-science/screen-26.png)
+<img src="images/mac-anaconda-download-64bitgui.png" width="750">
 
-Step 2 Option 1 - Open the pkg file from the browser
+Step 2: Open the downloaded .pkg file
 
-![screen-27](http://curriculum-content.s3.amazonaws.com/data-science/screen-27.png)
+<img src="images/mac-anaconda-openpkg.png" width="750">
 
-Step 2 Option 2 - Open the pkg file from your "Downloads" folder
+Step 3: Click "Continue" to determine if the package can be installed
 
-![screen-28](http://curriculum-content.s3.amazonaws.com/data-science/screen-28.png)
+<img src="images/mac-anaconda-installation-determineinstall.png" width="450">
 
-Step 3 - Determine if the software can be installed
+Step 4: Installer - click "Continue"
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-29.png' width="600">
+<img src="images/mac-anaconda-installation-intro.png" width="650">
 
-Step 4 - Anaconda Installer
+Step 5: Read the Read Me, then click "Continue"
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-30.png' width="600">
+<img src="images/mac-anaconda-installation-readme.png" width="650">
 
-Step 5 - Accept the Read Me
+Step 6: Accept the license by clicking "Continue", then click "Agree" in the pop-up window
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-31.png' width="600">
+<img src="images/mac-anaconda-installation-agreelicense.png" width="650">
 
-Step 6 - Accept the License
+Step 7: Install
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-32.png' width="600">
+<img src="images/mac-anaconda-installation.png" width="650">
 
-Click "Agree" in the pop-up window
+You can ignore any supplementary pages, such as this advertisement for PyCharm
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-33.png' width="600">
+<img src="images/mac-anaconda-pycharm.png" width="650">
 
-Step 8 - Install
+Step 8: Installation Complete! Click "Close"
 
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-34.png' width="600">
+<img src="images/mac-anaconda-installation-successful.png" width="650">
 
-You may need to enter your password
-
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-35.png' width="600">
-
-Step 9 - Installing Anaconda
-
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-36.png' width="600">
-
-Step 10 - You do not have to install Microsoft VSCode
-
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-37.png' width="600">
-
-Step 11 - Completing the install
-
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-38.png' width="600">
-
-Step 12 - Move Installer to Trash
-
-<img src='http://curriculum-content.s3.amazonaws.com/data-science/screen-39.png' width="600">
+If the installation window asks if you want to move the installer .pkg file to trash, you can click “Move to Trash”
 
 ## Summary
 
-Congratulations! If you've gotten this far and everything has worked, you have successfully installed Git and Anaconda on your computer! Next, you'll learn what a virtual environment is - and set one up!
+Congratulations! If you've gotten this far and everything has worked, you have successfully installed Git and Anaconda on your computer! 

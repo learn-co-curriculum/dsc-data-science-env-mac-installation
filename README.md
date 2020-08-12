@@ -17,7 +17,9 @@ Please note - the exact names and versions will change over time.
 
 If you are comfortable with the command line and have installed <a href="https://brew.sh/" target="_blank"> homebrew</a>, you should install Git by running the command `brew install git` in a terminal window. If you have no idea what that last sentence meant, please disregard and follow the below steps.
 
-### Overview:
+### Overview
+
+Please also reference the image screengrabs for more detail below.
 
 1. Navigate to Git's download page for MacOS <a href="https://git-scm.com/download/mac" target="_blank">here</a>. Since you are not using homebrew, you should click on the latest version number under the Binary Installer option
     - This should take you to another page, where the download of the installer dmg file should begin automatically after a few seconds
@@ -34,7 +36,7 @@ If you are comfortable with the command line and have installed <a href="https:/
 5. When the installation is complete, click the "Close" button
     - If the installation window asks if you want to move the installer .pkg file to trash, you can click “Move to Trash”
 
-#### Git Installation Steps, step-by-step:
+#### Git Installation Step-by-Step:
 
 Step 1: Git’s download page for MacOS - choose the Binary Installer option (click the version number)
 
@@ -72,11 +74,23 @@ If the installation window asks if you want to move the installer .pkg file to t
 
 <img src="images/mac-git-moveinstallertotrash.png" width="450">
 
+### Confirming Your Git Installation
+
+To confirm you have installed Git successfully:
+
+1. Open a terminal window
+
+    - When we ask you to use the terminal, we mean the “Terminal” app in the “Utilities” folder within your “Applications” folder - or, find the "Terminal" app in your Launchpad (often found in a subdirectory named "Other")
+
+2. Type `git --version`: It should return the version of git you are running
+
 ## Installing Anaconda 
 
 The easiest way to get set up with Python and Jupyter Notebook so you can start coding is to install the Anaconda distribution. 
 
 ### Overview:
+
+Please also reference the image screengrabs for more detail below.
 
 1. Download the latest version of Anaconda <a href="https://www.anaconda.com/products/individual" target="_blank">here</a>
 2. Open the pkg file once it has downloaded to open the Anaconda installer
@@ -129,6 +143,14 @@ Step 8: Installation Complete! Click "Close"
 <img src="images/mac-anaconda-installation-successful.png" width="650">
 
 If the installation window asks if you want to move the installer .pkg file to trash, you can click “Move to Trash”
+
+### Confirming Your Anaconda Installation
+
+To confirm you have installed Anaconda successfully:
+
+1. Open a terminal window
+
+2. Type `conda info`: It should return a table of details about your conda installation
 
 ## Summary
 

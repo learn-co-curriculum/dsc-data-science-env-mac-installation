@@ -152,6 +152,12 @@ To confirm you have installed Anaconda successfully:
 
 2. Type `conda info`: It should return a table of details about your conda installation
 
+## Confirmation
+
+This image shows what it should look like when you confirm both your Git and Anaconda installs (although version numbers and details may change):
+
+<img src="images/mac-confirm-install.png" width="500">
+
 ## Summary
 
-Congratulations! If you've gotten this far and everything has worked, you have successfully installed Git and Anaconda on your computer! 
+Congratulations! If you've gotten this far and everything has worked, you have successfully installed Git and Anaconda on your Mac! 

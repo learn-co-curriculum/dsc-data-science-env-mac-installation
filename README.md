@@ -38,8 +38,6 @@ Please also reference the image screengrabs for more detail below.
 
 #### Git Installation Step-by-Step:
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQtsPSXRa47q3beYt81S9lchOz5ZC5vrqK324GH1GuGGQXSALFfpBSF_VWVcm8GrQNqvGfjxZeohx5I/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 Step 1: Git’s download page for MacOS - choose the Binary Installer option (click the version number)
 
 <img src="images/mac-git-download-latestversionboxed.png" width="750">
@@ -107,8 +105,6 @@ Please also reference the image screengrabs for more detail below.
     - If the installation window asks if you want to move the installer .pkg file to trash, you can click “Move to Trash”
 
 #### Anaconda Installation Steps, step-by-step:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5d1LpSJt8OnoANlTfAHZg8ff4zVS22HPV1_98k8bGRQEotl686kSjzqEi_vjhXudMB4ui9i_wBheJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Step 1: Download Anaconda, choosing the 64-bit GUI option
 

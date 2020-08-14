@@ -84,6 +84,8 @@ To confirm you have installed Git successfully:
 
 2. Type `git --version`: It should return the version of git you are running
 
+---
+
 ## Installing Anaconda 
 
 The easiest way to get set up with Python and Jupyter Notebook so you can start coding is to install the Anaconda distribution. 
